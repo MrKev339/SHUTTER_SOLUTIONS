@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shutter Solutions - Services</title>
+  <link rel="stylesheet" href="css/STYLE.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <!-- New logo implementation in the header -->
+      <div class="header-logo-container">
+          <svg class="header-logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                  <linearGradient id="shutterGradientHeader" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#5a82a0;stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+                  </linearGradient>
+              </defs>
+              <rect x="10" y="10" width="80" height="80" fill="none" stroke="url(#shutterGradientHeader)" stroke-width="4" rx="10" ry="10" />
+              <line x1="15" y1="25" x2="85" y2="25" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+              <line x1="15" y1="40" x2="85" y2="40" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+              <line x1="15" y1="55" x2="85" y2="55" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+              <line x1="15" y1="70" x2="85" y2="70" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+          </svg>
+          <h1 class="logo">Shutter Solutions</h1>
+      </div>
+      <nav id="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- This is the new button for the mobile menu -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="toggle navigation menu">
+          <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <!-- The slideshow container for the background images -->
+    <div class="slideshow-container">
+        <!-- Replaced local image paths with uploaded and placeholder images -->
+        <div class="mySlides fade">
+            <img src="D:\SHUTTER_SOLUTIONS\img1.jpg" alt="Shutter Solutions company logo" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="D:\SHUTTER_SOLUTIONS\img2.jpg" alt="Elegant blinds installation" style="width:100%">
+        </div>
+        <div class="mySlides fade">
+            <img src="D:\SHUTTER_SOLUTIONS\img3.jpg" alt="Secure shutters installation" style="width:100%">
+        </div>
+    </div>
+
+   <div class="container hero-content">
+        <h2>Elegant Blinds & Secure Shutters for Your Home</h2>
+        <p>Welcome to Shutter Solutions – Your Partner in Home Security and Style.</p>
+     
+    </div>
+    <!-- Navigation dots for the slideshow -->
+    <div style="text-align:center" class="slide-dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </section>
+
+  <section class="features container">
+    <article class="feature">
+        <img src="https://placehold.co/400x250/5a82a0/ffffff?text=Our+Services" alt="Various blinds and shutters" class="feature-image">
+      <h3>Our Services</h3>
+      <p>Aluminium Security Shutters, Trellis Doors, & Blinds Installations.</p>
+      <a href="services.html" class="btn-secondary">Learn More</a>
+    </article>
+    <article class="feature">
+      <img src="https://placehold.co/400x250/2c3e50/ffffff?text=Our+Work" alt="A sample of our work" class="feature-image">
+      <h3>Our Work</h3>
+      <p>See our quality craftsmanship in action.</p>
+      <a href="gallery.html" class="btn-secondary">View Gallery</a>
+    </article>
+    <article class="feature">
+        <img src="https://placehold.co/400x250/e0e8f0/2c3e50?text=Happy+Client" alt="Happy client testimonial" class="feature-image">
+      <h3>Testimonials</h3>
+      <blockquote>“Amazing shutters and friendly service!” – Happy Client</blockquote>
+    </article>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Shutter Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="javascript/script.js"></script>
+</body>
+</html>

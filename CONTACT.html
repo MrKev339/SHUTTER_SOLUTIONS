@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shutter Solutions - Contact Us</title>
+  <link rel="stylesheet" href="css/Contact.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <!-- Logo and company name in the header -->
+      <div class="header-logo-container">
+          <svg class="header-logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                  <linearGradient id="shutterGradientHeader" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#5a82a0;stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:1" />
+                  </linearGradient>
+              </defs>
+              <rect x="10" y="10" width="80" height="80" fill="none" stroke="url(#shutterGradientHeader)" stroke-width="4" rx="10" ry="10" />
+              <line x1="15" y1="25" x2="85" y2="25" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+              <line x1="15" y1="40" x2="85" y2="40" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+              <line x1="15" y1="55" x2="85" y2="55" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+              <line x1="15" y1="70" x2="85" y2="70" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+          </svg>
+          <h1 class="logo">Shutter Solutions</h1>
+      </div>
+      <nav id="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Mobile menu toggle button -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="toggle navigation menu">
+          <span class="hamburger"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-subpage">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Reach out for a free quote or any inquiries.</p>
+        </div>
+    </section>
+
+    <section class="contact-info container">
+        <div class="contact-details">
+            <h3>Get in Touch</h3>
+            <p>For immediate assistance, please contact Leanne:</p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/27844171548" target="_blank">084 417 1548</a></p>
+            <p><strong>Email:</strong> <a href="mailto:leepret4@gmail.com">leepret4@gmail.com</a></p>
+            <p>We aim to respond to all inquiries within 24 hours.</p>
+        </div>
+
+        <div class="contact-form-container">
+            <h3>Send Us a Message</h3>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+         
+        </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Shutter Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="javascript/SCRIPT.js"></script>
+</body>
+</html>
